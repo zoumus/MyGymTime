@@ -12,7 +12,7 @@ const Link = ({
     selectedPage,
     setSelectedPage,
 }: Props) => {
-    const lowerCasePage = page.toLowerCase().replace(/ /g, "") // we do that for id bc the id is lc and without spaces
+    const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage; // we do that for id bc the id is lc and without spaces
   return (
     <AnchorLink
         className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}

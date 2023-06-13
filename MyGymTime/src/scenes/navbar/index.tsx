@@ -11,6 +11,8 @@ type Props = {
 
 const Navbar = ({ selectedPage, setSelectedPage }: Props) => {
     const flexBetween = "flex items-center justify-between";
+
+    
     return (
         <nav>
             <div className={`${flexBetween} fixed top-0 z-30 w-full py-6`}>
