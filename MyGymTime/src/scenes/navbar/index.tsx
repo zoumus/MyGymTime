@@ -52,7 +52,7 @@ const Navbar = ({ selectedPage, setSelectedPage }: Props) => {
                     </div>
                 </div>
             </div>
-        
+        </nav>
     )
 }
 export default Navbar;
