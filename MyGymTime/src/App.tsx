@@ -12,7 +12,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-  
+  </div>
   );
 }
 export default App;
