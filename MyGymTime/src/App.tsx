@@ -3,7 +3,7 @@ import { useState } from "react";
 import { SelectedPage } from "@/shared/types";
 
 
-function pp() {
+function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
 
   return (
